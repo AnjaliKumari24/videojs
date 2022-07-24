@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Editor</title>
+    <style>
+      body{
+        
+        background-color: cyan;
+      }
+      h1{
+        text-align: center;
+        font-family: sans-serif;
+        
+      }
+      h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 45%;
+        margin-right: 40%;
+        font-style: italic;
+      }
+      
+      video{
+        
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 30%;
+        margin-right: 40%;
+      }
+      input{
+        cursor: pointer;
+      }
+
+      
+      
+
+      
+    </style>
+</head>
+<body>
+    <h1><u>VEDIO EDITOR</u></h1>
+
+    <h3> Merging Videos</h3>
+
+  <video width="700" height="500" controls id="video">
+  <source src="" id="video_here" class="active">
+    Your browser does not support HTML5 video.
+    <source src="" id="newvideo_here" class="">
+  </video>
+
+<br><br>
+
+  
+
+<input type="file" name="file[]" class="file_multi_video "  id= "myvid" accept="video/*">
+
+<br><br>
+
+
+
+<input type="file" name="file[]new" class="new_file_multi_video" id= "newmyvid" accept="video/*">
+<br>
+<br>
+<br>
+
+
+
+
+<script type="text/javascript" src="video.js"></script>
+</body>
+</html>
